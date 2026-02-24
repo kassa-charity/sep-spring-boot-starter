@@ -14,7 +14,7 @@ Spring Boot starter for **پرداخت الکترونیک سامان کیش** (S
 
 ## Requirements
 
-- Java 21+
+- Java 17+
 - Spring Boot 4.x
 
 ## Installation
@@ -23,25 +23,23 @@ Spring Boot starter for **پرداخت الکترونیک سامان کیش** (S
 
 ```xml
 <dependency>
-    <groupId>com.kassa</groupId>
+    <groupId>io.github.kassa-charity</groupId>
     <artifactId>sep-spring-boot-starter</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
 ### Gradle (Groovy)
 
 ```groovy
-implementation 'com.kassa:sep-spring-boot-starter:0.0.1-SNAPSHOT'
+implementation 'io.github.kassa-charity:sep-spring-boot-starter:1.0.0'
 ```
 
 ### Gradle (Kotlin)
 
 ```kotlin
-implementation("com.kassa:sep-spring-boot-starter:0.0.1-SNAPSHOT")
+implementation("io.github.kassa-charity:sep-spring-boot-starter:1.0.0")
 ```
-
-After the first release, replace `0.0.1-SNAPSHOT` with the released version (e.g. `0.0.1`).
 
 ## Configuration
 
